@@ -15,11 +15,12 @@ export default function Home() {
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
-      O hub essencial das estratégias, métodos e práticas de sucesso.
+        O hub essencial das estratégias, métodos e práticas de sucesso.
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground"> 
       </p>
-      <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">Reunimos ferramentas que transformam negócios e otimizam resultados em qualquer setor, numa abordagem simples e eficaz para alcançar o sucesso estratégico.
+      <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
+        Reunimos ferramentas que transformam negócios e otimizam resultados em qualquer setor, numa abordagem simples e eficaz para alcançar o sucesso estratégico.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
