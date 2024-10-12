@@ -21,10 +21,10 @@ export const NAVLINKS = [
     title: "Blog Prátiko!",
     href: "/blog",
   },
-/*   {
+  {
     title: "Comunidade",
     href: "https://github.com/nisabmohd/Aria-Docs/discussions",
-  }, */
+  },
 ];
 
 export function Navbar() {
