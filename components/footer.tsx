@@ -9,10 +9,11 @@ export function Footer() {
         <div className="flex items-center gap-3">
           <CommandIcon className="sm:block hidden w-5 h-5 text-muted-foreground" />
           <p className="text-center">
-            Desenvolvido por{" "}
+            Desenvolvido por{""}
             <Link
               className="px-1 underline underline-offset-2"
               href="https://labofcodes.com"
+              target="_blank"
             >
              Lab of Codes.
             </Link>

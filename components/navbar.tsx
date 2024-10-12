@@ -14,11 +14,11 @@ export const NAVLINKS = [
     href: `/docs${page_routes[0].href}`,
   },
   {
-    title: "Guias E1",
+    title: "Blueprints",
     href: "#",
   },
   {
-    title: "Blog",
+    title: "Blog Prátiko!",
     href: "/blog",
   },
   {

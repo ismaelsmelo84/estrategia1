@@ -7,7 +7,7 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AriaDocs - Template",
+  title: "E1: a estratégia número 1",
   metadataBase: new URL("https://ariadocs.vercel.app/"),
   description:
     "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="pt" suppressHydrationWarning>
       <body
         className={`${GeistSans.variable} ${GeistMono.variable} font-regular antialiased`}
         suppressHydrationWarning
