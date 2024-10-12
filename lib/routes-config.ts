@@ -9,13 +9,13 @@ export type EachRoute = {
 
 export const ROUTES: EachRoute[] = [
   {
-    title: "Getting Started",
+    title: "Comece por AQUI",
     href: "/getting-started",
     noLink: true,
     items: [
-      { title: "Introduction", href: "/introduction" },
+      { title: "Introdução", href: "/introduction" },
       {
-        title: "Installation",
+        title: "Forma de Uso",
         href: "/installation",
         items: [
           { title: "Laravel", href: "/laravel" },
@@ -23,15 +23,96 @@ export const ROUTES: EachRoute[] = [
           { title: "Gatsby", href: "/gatsby" },
         ],
       },
-      { title: "Quick Start Guide", href: "/quick-start-guide" },
+      { title: "Guia Rápido", href: "/quick-start-guide" },
       {
-        title: "Project Structure",
+        title: "FAQ",
+        href: "/faq",
+      },
+      { title: "Revisões", href: "/changelog" },
+    ],
+  },
+  {
+    title: "Abordagem BizDevOps",
+    href: "/server-actions",
+    noLink: true,
+    items: [
+      { title: "Alinhamento Estratégico", href: "/getToken" },
+      { title: "Eficiência Operacional", href: "/getToken" },
+      { title: "Governança e Gestão", href: "/getToken" },
+      { title: "Experiência do Cliente", href: "/getToken" },
+      { title: "Aplicação Setorial", href: "/getToken" },
+    ],
+  },
+  {
+    title: "Estratégia de Negócios",
+    href: "/react-hooks",
+    noLink: true,
+    items: [
+      { title: "Novos Negócios", href: "/use-session" },
+      { title: "Planejamento", href: "/use-fetch" },
+      { title: "Competitividade", href: "/use-auth" },
+      { title: "Execução", href: "/use-product" },
+      { title: "Métricas", href: "/use-order" },
+      { title: "Sustentabilidade", href: "/use-cart" },
+      { title: "Benchmarking", href: "/use-payment" },
+    ],
+  },
+  {
+    title: "Governança Digital",
+    href: "/server-actions",
+    noLink: true,
+    items: [
+      { title: "Governança", href: "/getSession" },
+      { title: "Gestão", href: "/getToken" },
+      { title: "Transformação", href: "/getRole" },
+      { title: "Inovação", href: "/getRole" },
+      { title: "Projetos", href: "/getRole" },
+      { title: "Operações", href: "/getRole" },
+      {
+        title: "Produtos",
         href: "/project-structure",
         items: [
-          { title: "Layouts", href: "/layouts" },
+          { title: "Introdução", href: "/layouts" },
           { title: "Integrations", href: "/integrations" },
           {
             title: "Manual",
+            href: "/manual",
+            items: [
+              { title: "Introdução", href: "/javascript" },
+              { title: "Typescript", href: "/typescript" },
+              { title: "Golang", href: "/golang" },
+            ],
+          },
+        ],
+      },
+      { title: "Serviços", href: "/getRole" },
+      { title: "Dados", href: "/getRole" },
+      { title: "Conhecimento", href: "/getRole" },
+    ],
+  },
+  {
+    title: "A Tríade do Sucesso",
+    href: "/server-actions",
+    noLink: true,
+    items: [
+      { title: "Pessoas", href: "/getSession" },
+      { title: "Processos", href: "/getToken" },
+      { title: "Tecnologia", href: "/getRole" },
+    ],
+  },
+  {
+    title: "Desempenho e Resultados",
+    href: "/server-actions",
+    noLink: true,
+    items: [
+      {
+        title: "Contextuais",
+        href: "/project-structure",
+        items: [
+          { title: "Análise do Público", href: "/layouts" },
+          { title: "Análise Social", href: "/integrations" },
+          {
+            title: "Análise Cultural",
             href: "/manual",
             items: [
               { title: "JavaScript", href: "/javascript" },
@@ -41,45 +122,16 @@ export const ROUTES: EachRoute[] = [
           },
         ],
       },
-      { title: "Changelog", href: "/changelog" },
-      {
-        title: "FAQ",
-        href: "/faq",
-      },
+      { title: "Transacionais", href: "/getSession" },
+      { title: "Organizacionais", href: "/getToken" },
     ],
   },
   {
-    title: "Server Actions",
+    title: "Outros (diversos)",
     href: "/server-actions",
     noLink: true,
     items: [
-      { title: "getSession", href: "/getSession" },
-      { title: "getToken", href: "/getToken" },
-      { title: "getRole", href: "/getRole" },
-    ],
-  },
-  {
-    title: "React Hooks",
-    href: "/react-hooks",
-    noLink: true,
-    items: [
-      { title: "useSession", href: "/use-session" },
-      { title: "useFetch", href: "/use-fetch" },
-      { title: "useAuth", href: "/use-auth" },
-      { title: "useProduct", href: "/use-product" },
-      { title: "useOrder", href: "/use-order" },
-      { title: "useCart", href: "/use-cart" },
-      { title: "usePayment", href: "/use-payment" },
-      { title: "useShipping", href: "/use-shipping" },
-      { title: "useNotification", href: "/use-notification" },
-      { title: "useReview", href: "/use-review" },
-      { title: "useInventory", href: "/use-inventory" },
-      { title: "useUser", href: "/use-user" },
-      { title: "useSettings", href: "/use-settings" },
-      { title: "useAnalytics", href: "/use-analytics" },
-      { title: "useTheme", href: "/use-theme" },
-      { title: "useRouter", href: "/use-router" },
-      { title: "useData", href: "/use-data" },
+      { title: "Exemplos de indicadores", href: "/getSession" },
     ],
   },
 ];
