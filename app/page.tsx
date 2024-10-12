@@ -11,23 +11,22 @@ export default function Home() {
         target="_blank"
         className="mb-5 sm:text-lg flex items-center gap-2 underline underline-offset-4"
       >
-        Follow along on GitHub{" "}
+        Siga-nos no Linkedin{" "}
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
-        An example app built using Next.js and server components.
+      O hub essencial das estratégias, métodos e práticas de sucesso.
       </h1>
-      <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        This feature-packed documentation template, built with Next.js, offers a
-        sleek and responsive design, perfect for all your project documentation
-        needs.
+      <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground"> 
+      </p>
+      <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">Reunimos ferramentas que transformam negócios e otimizam resultados em qualquer setor, numa abordagem simples e eficaz para alcançar o sucesso estratégico.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
           href={`/docs${page_routes[0].href}`}
           className={buttonVariants({ className: "px-6", size: "lg" })}
         >
-          Get Stared
+          Explore a ToolBox
         </Link>
         <Link
           href="/blog"
@@ -37,12 +36,12 @@ export default function Home() {
             size: "lg",
           })}
         >
-          Read Blog
+          Acesse o Blog
         </Link>
       </div>
       <span className="flex flex-row items-start sm:gap-2 gap-0.5 text-muted-foreground text-md mt-7 -mb-12 max-[800px]:mb-12 font-code text-base font-medium">
         <TerminalSquareIcon className="w-5 h-5 mr-1 mt-0.5" />
-        {"npx create-aria-doc <project-directory>"}
+        {"Conheça todas as principais estratégias de gestão e governança digital!"}
       </span>
     </div>
   );
