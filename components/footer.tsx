@@ -9,21 +9,13 @@ export function Footer() {
         <div className="flex items-center gap-3">
           <CommandIcon className="sm:block hidden w-5 h-5 text-muted-foreground" />
           <p className="text-center">
-            Build by{" "}
+            Desenvolvido por{" "}
             <Link
               className="px-1 underline underline-offset-2"
-              href="https://github.com/nisabmohd"
+              href="https://labofcodes.com"
             >
-              nisabmohd
+             Lab of Codes.
             </Link>
-            . The source code is available on{" "}
-            <Link
-              className="px-1 underline underline-offset-2"
-              href="https://github.com/nisabmohd/Aria-Docs"
-            >
-              GitHub
-            </Link>
-            .
           </p>
         </div>
 
@@ -38,7 +30,7 @@ export function Footer() {
 export function FooterButtons() {
   return (
     <>
-      <Link
+{/*       <Link
         href="https://vercel.com/templates/next.js/documentation-template"
         className={buttonVariants({ variant: "outline", size: "sm" })}
       >
@@ -51,7 +43,7 @@ export function FooterButtons() {
       >
         <HeartIcon className="h-4 w-4 mr-2 text-red-600 fill-current" />
         Sponsor
-      </Link>
+      </Link> */}
     </>
   );
 }
